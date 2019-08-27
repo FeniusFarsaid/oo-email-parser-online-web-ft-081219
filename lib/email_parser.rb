@@ -14,5 +14,6 @@ class EmailAddressParser
 		@emails = @emails.gsub(/[\s,]/ ," ").split
 		@emails.uniq
 	end
+# 	Instance method that sets the class variable @emails to equal @emails with a global substitution of a white space for a comma.
 	
 end
